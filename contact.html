@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>TechnoNation</title>
+    <link rel="stylesheet" href="techStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+
+<body>
+    <div id="main">
+
+        <div class="menu">
+            <img class="cover" src="images/coverImg.jpg">
+            <a href="index.html">
+                <h1><img class="logo" src="images/logoLight.png"></h1>
+            </a>
+            <div class="links"><a href="stories.html">Stories</a>
+                <a href="design.html">Design</a>
+                <a href="about.html">About Me</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="contentDiv">
+            <h2 class="content">Contact</h2>
+            <form id="contact">
+                <div id="contctForm">
+                    <label>Phone Number <br>
+                        (XXX-XXX-XXXX): </label><br>
+                    <input type="text" id="number" required><br>
+                    <label>E-mail: </label><br>
+                    <input type="email" id="email" required><br>
+                    <button onclick="validate()" class="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <div class="background"></div>
+    <script type="text/javascript" src="techScript.js"></script>
+</body>
+
+</html>
